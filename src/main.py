@@ -36,7 +36,7 @@ app = FastAPI(
     title="TianGong AI Server",
     version="1.0",
     description="TianGong AI API Server",
-    # dependencies=[Depends(validate_token)],
+    dependencies=[Depends(validate_token)],
 )
 
 origins = ["*"]
